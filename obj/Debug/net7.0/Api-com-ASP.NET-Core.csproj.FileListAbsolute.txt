@@ -31,3 +31,13 @@ C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\obj\Debug\net7.0\refi
 C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\obj\Debug\net7.0\Api-com-ASP.NET-Core.pdb
 C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\obj\Debug\net7.0\Api-com-ASP.NET-Core.genruntimeconfig.cache
 C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\obj\Debug\net7.0\ref\Api-com-ASP.NET-Core.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Aluno\Desktop\vsCode\API-NET\Api-com-ASP.NET-Core\bin\Debug\net7.0\System.CodeDom.dll
