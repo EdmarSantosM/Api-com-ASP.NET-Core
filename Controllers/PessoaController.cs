@@ -41,7 +41,8 @@ namespace Api_com_ASP.NET_Core.Controllers
         [HttpGet("api")]
         public async Task<ActionResult> listar()
         {
-            
+            var dados = await dc.pessoa.ToListAsync();
+            return Ok(dados);
         }
 
 
