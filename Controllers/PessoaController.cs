@@ -15,8 +15,8 @@ namespace Api_com_ASP.NET_Core.Controllers
 
     public class PessoaController
     {
-        [HttpGet("oi")]
-        public string oi()
+        [HttpGet("oi")] // Get ( Exibe e/ou  Lista)
+        public string oi() // Método Simples
         {
             return "Hello World"; 
         }
