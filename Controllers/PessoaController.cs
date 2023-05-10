@@ -37,6 +37,13 @@ namespace Api_com_ASP.NET_Core.Controllers
             return Created("Objeto pessoa",p);
         }
 
+        //Criando o método Listar
+        [HttpGet("api")]
+        public async Task<ActionResult> listar()
+        {
+            
+        }
+
 
         [HttpGet("oi")] // Get ( Exibe e/ou  Lista)
         public string oi() // Método Simples
