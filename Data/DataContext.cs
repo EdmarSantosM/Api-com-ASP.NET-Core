@@ -9,5 +9,7 @@ namespace Api_com_ASP.NET_Core.Data
         //Criação de um  método construtor
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {}
+
+        public DbSet<Pessoa> pessoa{get; set;}
     }
 }
