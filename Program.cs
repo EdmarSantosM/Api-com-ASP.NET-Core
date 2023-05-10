@@ -1,9 +1,22 @@
+
+using Api_com_ASP.NET_Core.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Inicio da conexao dom Banco de Dados
+
+//string stringConexao = ConnectionString("conexaoMysql");
+
+var stringConexao = builder.Configuration.GetConnectionString("conexaoMysql"); //Validar aqui
+
+builder.Services.AddDbContext<DataContext>(opt => opt.UseMySql(stringConexao,ServerVersion.AutoDetect(stringConexao)));
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
