@@ -37,12 +37,20 @@ namespace Api_com_ASP.NET_Core.Controllers
             return Created("Objeto pessoa",p);
         }
 
-        //Criando o método Listar
+        //Criando o método Listar todas informações
         [HttpGet("api")]
         public async Task<ActionResult> listar()
         {
             var dados = await dc.pessoa.ToListAsync();
             return Ok(dados);
+        }
+
+        //Criando o método de listar por Id
+        [HttpGet("api/{codigo}")]
+        public Pessoa filtrar(int codigo)
+        {
+            Pessoa p = dc.pessoa.Find(codigo);
+            return p;
         }
 
 
