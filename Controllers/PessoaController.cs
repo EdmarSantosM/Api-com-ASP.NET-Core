@@ -61,6 +61,24 @@ namespace Api_com_ASP.NET_Core.Controllers
                 return Ok(p);
         }
 
+        [HttpDelete("api/{codigo}")]
+        public async Task<ActionResult> remover(int codigo)
+        {
+            // O método para remover precisa de todas as informações do objeto
+            Pessoa p = filtrar(codigo);
+
+            if(p == null)
+            {
+                return NotFound(); // Caso código não for encontrado 
+            }
+            else //Remoção
+            {
+                dc.pessoa.Remove(p);
+                await dc.SaveChangesAsync();
+                return Ok();
+            }
+        }
+
         [HttpGet("oi")] // Get ( Exibe e/ou  Lista)
         public string oi() // Método Simples
         {
