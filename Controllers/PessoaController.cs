@@ -53,6 +53,13 @@ namespace Api_com_ASP.NET_Core.Controllers
             return p;
         }
 
+        [HttpPut("api")] // Com método PUT é encessário passar  todas as  caracteristicas (Atributos)
+        public async Task<ActionResult> editar([FromBody] Pessoa p)  // Objeto Pessoa nomeado com p
+        {
+                dc.pessoa.Update(p);
+                await dc.SaveChangesAsync(); // Só executa as  demais linhas apos a alteração / atualização no Banco de Dados.
+                return Ok(p);
+        }
 
         [HttpGet("oi")] // Get ( Exibe e/ou  Lista)
         public string oi() // Método Simples
